@@ -1,0 +1,99 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    /* Un gris muy suave de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* El contenedor principal */
+.contenedor {
+    width: 100%;
+    max-width: 400px;
+    /* Ancho similar al de las imágenes */
+    padding: 20px;
+}
+
+/* Diseño de la Tarjeta Blanca (El fondo de los formularios) */
+.tarjeta {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Estilo de los Botones del Menú y Enviar */
+.boton,
+.boton-enviar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    background-color: #007bff;
+    /* El AZUL solicitado en la imagen */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    box-sizing: border-box;
+    /* Para que el padding no deforme el ancho */
+}
+
+.boton:hover,
+.boton-enviar:hover {
+    background-color: #0056b3;
+    /* Un azul un poco más oscuro al pasar el mouse */
+}
+
+/* Estilo de los campos de texto (Inputs) */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Vital para que no se salgan del marco */
+}
+
+/* Área de Resultados */
+.resultados {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    /* Gris claro para destacar el resultado */
+    border-radius: 5px;
+}
+
+.volver {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    text-decoration: none;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
